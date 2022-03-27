@@ -18,8 +18,8 @@ import {
 import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
-import AddressScreen from './src/screens/AddressScreen';
-//import HomeScreen from './src/screens/HomeScreen';
+//import AddressScreen from './src/screens/AddressScreen';
+import HomeScreen from './src/screens/HomeScreen';
 import ProductScreen from './src/screens/ProductScreen';
 import ShoppingCart from './src/screens/ShoppingCartScreen';
 
@@ -34,7 +34,7 @@ const App = () => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AddressScreen />
+      <HomeScreen />
     </SafeAreaView>
   );
 };
